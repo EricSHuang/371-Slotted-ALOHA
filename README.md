@@ -11,11 +11,12 @@ Nodes will always have data available for transmission. (i.e. Once a node
     frame to transmit.)
 ### Findings
 The success rate was significantly higher than the estimated success. <br>
-The estimated success rate using the theoretical model: (𝑁𝑝(1−𝑝)𝑁−1)
+The estimated success rate using the theoretical model: (𝑁𝑝(1−𝑝)^(𝑁−1))
 with N = 6 and P = 0.3 is **30.2526%**. <br>
 <br>
 After ALOHA running over five million slots, the actual success rate was around **43%**.
-This is much higher than the theoretical model, some assumptions might have
+<br>
+This is much higher than the theoretical model; the assumptions may have
 inflated the success rate.
 
 ### Context
